@@ -1,67 +1,98 @@
 <html>
 <head>
     <title> NamansRoom | Home</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
 <body>
-<div>
-	  <!-- Nav tabs -->
-	  <ul class="nav nav-tabs" role="tablist">
-	    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-user"></span> Naman</a></li>
-	    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-messages"></span>Messages</a></li>
-	  </ul>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">XYZ.com</a>
+    </div>
 
-	  <!-- Tab panes -->
-	  <div class="tab-content">
-	    <div role="tabpanel" class="tab-pane fade in active" id="home">
-	    	<div class="container" style="margin-top:20px;">
-				<div class="row">
-					  <div class="col-sm-6 col-md-4">
-						    <div class="thumbnail" style="text-align:center;">
-						      <img src="/home/naman/Pictures/me.jpg" alt="profile_picture">
-							      <div class="caption">
-								        <h4>Naman Sharma</h4>
-								        <h5>namansharmahathras@gmail.com</h5>
-							      </div>
-						    </div>
-					  </div>
-					  <div class="col-md-8">
-					  	<div class="panel panel-primary">
-					  		<div class="panel-heading" style="text-align:center;">
-					  			Basic Profile
-					  		</div>
-					  		<div class="panel-body">
-					  			<div class="row">
-					  				<div class="col-md-6 text-default" style="text-align:center;"> Username :</div>
-					  				<div class="col-md-6 text-primary" style="text-align:center;font-weight:bold;"> Naman Sharma</div>
-					  			</div>
-					  			<div class="row" style="margin-top:14px;">
-					  				<div class="col-md-6 text-default" style="text-align:center;"> Email :</div>
-					  				<div class="col-md-6 text-primary" style="text-align:center;font-weight:bold;"> namansharmahathras@gmail.com</div>
-					  			</div>
-					  			<div class="row" style="margin-top:14px;">
-					  				<div class="col-md-6 text-default" style="text-align:center;"> Hobbies :</div>
-					  				<div class="col-md-6 text-primary" style="text-align:center;font-weight:bold;"> Coding Everyday!</div>
-					  			</div>
-					  		</div>
-					  	</div>
-					  </div>
-				</div>
-		</div>
-	    </div>
-	    <div role="tabpanel" class="tab-pane fade" id="messages">
-	    <div class="text-primary" style="margin-top:20px;text-align:center;"> You Have Currently No Messages !</div>
-	    </div>
-	  </div>
-
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li class="active"><a href="#">Naman Sharma <span class="sr-only">(current)</span></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container" style="margin-top:20px;">
+<div class="row">
+      <div class="col-sm-6 col-md-4">
+            <div class="thumbnail" style="text-align:center;">
+              <img src="/home/naman/Pictures/me.jpg" alt="profile_picture">
+                  <div class="caption">
+                        <h4>Naman Sharma</h4>
+                        <h5>namansharmahathras@gmail.com</h5>
+                  </div>
+            </div>
+      </div>
+      <div class="col-md-8">
+        <div class="panel panel-primary">
+            <div class="panel-heading" style="text-align:center;">
+                Basic Profile
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-6 text-default"> Username :</div>
+                    <div class="col-md-6 text-primary" style="font-weight:bold;"> Naman Sharma</div>
+                </div>
+                <div class="row" style="margin-top:14px;">
+                    <div class="col-md-6 text-default"> Email :</div>
+                    <div class="col-md-6 text-primary" style="font-weight:bold;"> namansharmahathras@gmail.com</div>
+                </div>
+                <div class="row" style="margin-top:14px;">
+                    <div class="col-md-6 text-default"> Hobbies :</div>
+                    <div class="col-md-6 text-primary" style="font-weight:bold;"> Coding Everyday!</div>
+                </div>
+            </div>
+        </div>
+      </div>
 </div>
-
-<script src="js/jquery-2.1.4.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script>
-	
-</script>
+    <div class="row">
+        <div class="col-md-4">
+             <div class="panel-success">
+                 <div class="panel-heading">Profile Information</div>
+                <div class="panel-body">
+                    <div class="col-md-6">
+                        <h5 class="text-primary">Friends</h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="text-success"><strong>150</strong></h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="text-primary">Last Login</h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="text-success"><strong>3 Days Ago</strong></h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="text-primary">Groups Involved</h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="text-success"><strong>10</strong></h5>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+</div>
 </body>
 </html>
